@@ -136,7 +136,7 @@ web-time = { version = "1.1", default-features = false }
 tokio-util = "0.7.12"
 
 # Substrate crates:
-polkadot-sdk = { git = "https://github.com/CESSProject/polkadot-sdk", branch = "stable2412", default-features = false }
+polkadot-sdk = { git = "https://github.com/paritytech/polkadot-sdk", branch = "stable2412", default-features = false }
 
 # Subxt workspace crates:
 subxt = { version = "0.38.0", path = "subxt", default-features = false }
@@ -174,18 +174,3 @@ opt-level = 2
 [profile.test.package.smoldot]
 opt-level = 2
 
-
-[patch."https://github.com/paritytech/polkadot-sdk"]
-frame-benchmarking = { git = "https://github.com/CESSProject/polkadot-sdk.git", branch = "stable2412" }
-sp-application-crypto = { git = "https://github.com/CESSProject/polkadot-sdk.git", branch = "stable2412" }
-sp-core = { git = "https://github.com/CESSProject/polkadot-sdk.git", branch = "stable2412" }
-sp-crypto-ec-utils = { git = "https://github.com/CESSProject/polkadot-sdk", branch = "stable2412" }
-sp-debug-derive = { git = "https://github.com/CESSProject/polkadot-sdk", branch = "stable2412" }
-sp-externalities = { git = "https://github.com/CESSProject/polkadot-sdk", branch = "stable2412" }
-sp-runtime = { git = "https://github.com/CESSProject/polkadot-sdk.git", branch = "stable2412" }
-sp-runtime-interface = { git = "https://github.com/CESSProject/polkadot-sdk", branch = "stable2412" }
-sp-runtime-interface-proc-macro = { git = "https://github.com/CESSProject/polkadot-sdk", branch = "stable2412" }
-sp-std = { git = "https://github.com/CESSProject/polkadot-sdk", branch = "stable2412" }
-sp-storage = { git = "https://github.com/CESSProject/polkadot-sdk", branch = "stable2412" }
-sp-tracing = { git = "https://github.com/CESSProject/polkadot-sdk", branch = "stable2412" }
-sp-wasm-interface = { git = "https://github.com/CESSProject/polkadot-sdk", branch = "stable2412" }
