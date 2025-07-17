@@ -142,15 +142,15 @@ web-time = { version = "1.1", default-features = false }
 tokio-util = "0.7.12"
 
 # Substrate crates:
-sc-executor = { git = "https://github.com/paritytech/polkadot-sdk", branch = "stable2412", version = "0.41.0", default-features = false }
-sc-executor-common = { git = "https://github.com/paritytech/polkadot-sdk", branch = "stable2412", version = "0.36.0", default-features = false }
-sp-crypto-hashing = { git = "https://github.com/paritytech/polkadot-sdk", branch = "stable2412", version = "0.1.0", default-features = false }
-sp-core = { git = "https://github.com/paritytech/polkadot-sdk", branch = "stable2412", version = "35.0.0", default-features = false }
-sp-keyring = { git = "https://github.com/paritytech/polkadot-sdk", branch = "stable2412", version = "40.0.0", default-features = false }
-sp-maybe-compressed-blob = { git = "https://github.com/paritytech/polkadot-sdk", branch = "stable2412", version = "11.0.0", default-features = false }
-sp-io = { git = "https://github.com/paritytech/polkadot-sdk", branch = "stable2412", version = "39.0.1", default-features = false }
-sp-state-machine = { git = "https://github.com/paritytech/polkadot-sdk", branch = "stable2412", version = "0.44.0", default-features = false }
-sp-runtime = { git = "https://github.com/paritytech/polkadot-sdk", branch = "stable2412", version = "40.0.1", default-features = false }
+sc-executor = { git = "https://github.com/paritytech/polkadot-sdk", tag = "polkadot-stable2412-6", version = "0.41.0", default-features = false }
+sc-executor-common = { git = "https://github.com/paritytech/polkadot-sdk", tag = "polkadot-stable2412-6", version = "0.36.0", default-features = false }
+sp-crypto-hashing = { git = "https://github.com/paritytech/polkadot-sdk", tag = "polkadot-stable2412-6", version = "0.1.0", default-features = false }
+sp-core = { git = "https://github.com/paritytech/polkadot-sdk", tag = "polkadot-stable2412-6", version = "35.0.0", default-features = false }
+sp-keyring = { git = "https://github.com/paritytech/polkadot-sdk", tag = "polkadot-stable2412-6", version = "40.0.0", default-features = false }
+sp-maybe-compressed-blob = { git = "https://github.com/paritytech/polkadot-sdk", tag = "polkadot-stable2412-6", version = "11.0.0", default-features = false }
+sp-io = { git = "https://github.com/paritytech/polkadot-sdk", tag = "polkadot-stable2412-6", version = "39.0.1", default-features = false }
+sp-state-machine = { git = "https://github.com/paritytech/polkadot-sdk", tag = "polkadot-stable2412-6", version = "0.44.0", default-features = false }
+sp-runtime = { git = "https://github.com/paritytech/polkadot-sdk", tag = "polkadot-stable2412-6", version = "40.0.1", default-features = false }
 
 # Subxt workspace crates:
 subxt = { version = "0.42.1", path = "subxt", default-features = false }
